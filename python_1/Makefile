@@ -12,7 +12,7 @@ test:
 lint:
 	pipenv run pylint *.py
 black: 
-	pipenv run black *.py 
+	pipenv run black .
 clean:
 	rm -rf output
 
